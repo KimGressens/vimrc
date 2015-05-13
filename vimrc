@@ -115,3 +115,5 @@ let g:go_fmt_command = "goimports"
 autocmd FileType go nmap <leader><leader> :wa<CR>mT:GoTest<CR>
 " Jump back to last editing position before test run: \'
 autocmd FileType go nmap <leader>' `T
+
+colorscheme solarized
