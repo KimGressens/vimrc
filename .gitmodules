@@ -43,3 +43,6 @@
 [submodule "bundle/flavored-markdown"]
 	path = bundle/flavored-markdown
 	url = git://github.com/jtratner/vim-flavored-markdown.git
+[submodule "bundle/vitality"]
+	path = bundle/vitality
+	url = https://github.com/gee-forr/vitality.vim.git
