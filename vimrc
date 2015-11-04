@@ -78,8 +78,9 @@ autocmd FocusLost,WinLeave,FocusGained,BufEnter * :silent! !
 " automatically rebalance windows on vim resize
 autocmd VimResized * :wincmd =
 
-" md is markdown
+" Filetypes
 autocmd BufRead,BufNewFile *.md set filetype=markdown
+autocmd BufRead,BufNewFile Vagrantfile set filetype=ruby
 
 "
 " Position:
