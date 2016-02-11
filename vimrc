@@ -3,6 +3,7 @@
 
 filetype off
 call pathogen#infect()
+call pathogen#helptags()
 filetype plugin indent on
 
 " General Settings:
@@ -124,3 +125,8 @@ autocmd FileType go nmap <leader><leader> :wa<CR>mT:GoTest<CR>
 autocmd FileType go nmap <leader>' `T
 
 colorscheme solarized
+
+" xdebug settings
+let g:vdebug_options={}
+let g:vdebug_options["ide_key"] = "PHPSTORM"
+let g:vdebug_options["path_maps"] = {"/usr/projects/ticketmatic/Code/app.ticketmatic.com": "/Users/kimgressens/Documents/dev/kreativgeek/ticketmatic/backend"}
