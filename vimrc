@@ -66,6 +66,7 @@ map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimr
 " plugin settings
 let g:CommandTMaxHeight=20
 let g:CommandTWildIgnore=&wildignore . ",**/node_modules/*"
+let g:CommandTIgnoreCase=1
 let g:NERDSpaceDelims=1
 let g:gitgutter_enabled = 0
 " ZOMG the_silver_searcher is so much faster than ack"
@@ -125,6 +126,7 @@ autocmd FileType go nmap <leader><leader> :wa<CR>mT:GoTest<CR>
 autocmd FileType go nmap <leader>' `T
 
 colorscheme solarized
+set background=light 
 
 " xdebug settings
 let g:vdebug_options={}
